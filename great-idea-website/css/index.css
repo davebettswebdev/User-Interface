@@ -49,9 +49,13 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: .5px solid black
 }
 
+hr {
+	width: 95%;
+}
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -65,10 +69,14 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-* {
+*{
 	box-sizing:border-box;
-	border: 2px red solid
+	margin:0;
+	padding:0;
+	max-width:100%;
+	border:1px solid grey;
 }
+
 nav {
 	width: 1200px;
 	margin: 10px;
@@ -86,22 +94,79 @@ nav {
 	margin: 20px 30px 0px 35px;
 }
 p {
-	font-size: 30px;
+	font-size: 15px;
 }
-/*  header {
-	display: inline-block;
-	margin: 2% 25%;
-} */
+
 .top-box {
 	display: inline-block;
-	margin: 5% 5%
+	margin: 75px;
 }
 .top-title {
-	height: 50px;
-	diplay: inline-block;
+	height: 100px;
 	text-align: center;
+}
 
-}  
 h1 {
-	font-size: 40px;
+	font-size: 75px;
+}
+.first-section {
+	display: inline-block;
+	width: 100%;	
+
+}
+.features-div {
+	
+	margin: 55px;
+	width: 400px;
+	height: 200px;
+	display: inline-block;
+}
+.about-div {
+	
+	margin: 5%;
+	width: 400px;
+	height: 200px;
+	display: inline-block;
+}
+
+.middle-img {
+	display: inline-block;
+	width 100%;
+	margin 0px, 0px, 0px, 0px;
+}
+
+.second-section {
+	width 100%
+	padding: 20px;
+	margin: 30px;
+}
+
+.services-div {
+	margin: 20px 30px;
+	width: 260px;
+	display: inline-block;
+}
+
+.product-div {
+	margin: 20px 30px;
+	width: 260px;
+	display: inline-block;
+}
+
+.vision-div {
+	margin: 20px 30px;
+	width: 260px;
+	display: inline-block;
+}
+
+hr {
+	margin: 55px;
+}
+
+.third-section {
+	margin: 55px;
+}
+
+.copyright {
+	text-align: center;
 }
