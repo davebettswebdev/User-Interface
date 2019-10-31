@@ -77,6 +77,10 @@ h1, h2, h3, h4, h5 {
 	border:1px solid grey;
 }
 
+body {
+	width: 1035px;
+	}
+
 nav {
 	width: 1200px;
 	margin: 10px;
@@ -99,40 +103,61 @@ p {
 
 .top-box {
 	display: inline-block;
-	margin: 75px;
+	width 1000px;
 }
 .top-title {
-	height: 100px;
+	display: inline-block;
+	width: 400px;
+	height: 400px;
 	text-align: center;
+	margin: 50px 25px 50px 90px;
+}
+
+.started-box {	
+	display: inline-block;
+	border: 1px solid black;
+	width: 160px;
+	padding: 8px;
+	align-items: center;
+}
+.top-picture {
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	margin: 50px;
+	float: right;
 }
 
 h1 {
 	font-size: 75px;
+	margin: 0px 0px 25px 0px;
 }
 .first-section {
 	display: inline-block;
-	width: 100%;	
+	width: 2000px;	
 
 }
 .features-div {
 	
-	margin: 55px;
+	margin: 30px 55px 10px;
 	width: 400px;
-	height: 200px;
+	height: 100px;
 	display: inline-block;
 }
 .about-div {
-	
-	margin: 5%;
+	margin: 30px 55px 10px;
 	width: 400px;
-	height: 200px;
+	height: 100px;
 	display: inline-block;
 }
 
 .middle-img {
-	display: inline-block;
 	width 100%;
-	margin 0px, 0px, 0px, 0px;
+	margin 50px;
+}
+.middle-img img {
+	margin: 0px 50px;
+	width: 910px;
 }
 
 .second-section {
@@ -160,7 +185,8 @@ h1 {
 }
 
 hr {
-	margin: 55px;
+	margin: 0px 55px;
+	width: 900px;
 }
 
 .third-section {
@@ -169,4 +195,5 @@ hr {
 
 .copyright {
 	text-align: center;
+	margin: 0px 0px 25px;
 }
